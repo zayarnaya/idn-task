@@ -59,7 +59,7 @@ export const Slider: FC<Props> = (props: Props) => {
               />
             ))}
           </div>
-          <div ref={emblaRef} className="overflow-hidden h-full">
+          <div ref={emblaRef} className="overflow-hidden h-full lg:pb-2">
             <div className="flex ml-0 mr-4 relative">
               {sliderItems.map(({ image, title, text }, id) => (
                 <SliderItem image={image} title={title} text={text} key={`slide#${id}`} data-id={`${id}`} />

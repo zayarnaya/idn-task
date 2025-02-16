@@ -1,6 +1,6 @@
 'use client';
 import { sliderItems } from './consts/sliderItems';
-import { Header, Slider } from './views';
+import { Header, SectionTitle, Slider } from './views';
 import { EmblaOptionsType } from 'embla-carousel';
 import { AutoplayOptionsType } from 'embla-carousel-autoplay';
 
@@ -16,7 +16,10 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Slider sliderItems={sliderItems} options={carouselOptions} autoplayOptions={autoplayOptions} />
+      <section>
+        <SectionTitle orderNumber={1}>Наши услуги</SectionTitle>
+        <Slider sliderItems={sliderItems} options={carouselOptions} autoplayOptions={autoplayOptions} />
+      </section>
     </>
   );
 }

@@ -4,3 +4,5 @@ export { MobileMenuButton } from './MobileMenuButton/MobileMenuButton';
 export { MobileMenu } from './MobileMenu/MobileMenu';
 export { SliderButtonNext } from './SliderButtonNext/SliderButtonNext';
 export { SliderButtonPrev } from './SliderButtonPrev/SliderButtonPrev';
+export { SliderDot } from './SliderDot/SliderDot';
+export { SectionTitle } from './SectionTitle/SectionTitle';

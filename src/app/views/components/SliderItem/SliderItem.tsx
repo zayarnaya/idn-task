@@ -18,7 +18,7 @@ export const SliderItem: FC<Props> = (props: Props) => {
       data-id={id}
       id={`slide#${id}`}
     >
-      <div className="p-4 md:p-6 min-h-52 md:min-h-64 w-full rounded-lg bg-card cursor-default lg:hover:bg-primary/50 group/card transition-colors duration-300 overflow-hidden">
+      <div className="p-4 md:p-6 min-h-52 md:min-h-64 w-full rounded-lg bg-card cursor-default lg:hover:shadow-slideshadow group/card transition-shadow duration-300 overflow-hidden">
         <div className="flex flex-col justify-between h-full fade-in-0 zoom-in-95 duration-300">
           <div className="flex items-center gap-4 mb-6">
             <Image
@@ -34,8 +34,8 @@ export const SliderItem: FC<Props> = (props: Props) => {
             <p className="lg:hidden text-2lg xl:text-2xl max-xl::text-4xl">{title}</p>
           </div>
           <div>
-            <p className="hidden lg:block text-2lg xl:text-2xl max-xl::text-4xl bg-red">{title}</p>
-            <p className="lg:hidden md:text-lg xl:text-xl mt-3">{text}</p>
+            <p className="hidden lg:block text-xl xl:text-2xl max-xl::text-4xl bg-red">{title}</p>
+            <p className="lg:hidden tracking-wide text-sm md:text-lg xl:text-xl mt-3">{text}</p>
           </div>
         </div>
       </div>
