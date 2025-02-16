@@ -1,9 +1,9 @@
 import image1 from '@/app/assets/sliderImages/1.svg';
-import image2 from '@/app/assets/sliderImages/1.svg';
-import image3 from '@/app/assets/sliderImages/1.svg';
-import image4 from '@/app/assets/sliderImages/1.svg';
-import image5 from '@/app/assets/sliderImages/1.svg';
-import image6 from '@/app/assets/sliderImages/1.svg';
+import image2 from '@/app/assets/sliderImages/2.svg';
+import image3 from '@/app/assets/sliderImages/3.svg';
+import image4 from '@/app/assets/sliderImages/4.svg';
+import image5 from '@/app/assets/sliderImages/5.svg';
+import image6 from '@/app/assets/sliderImages/6.svg';
 
 import { SliderItemProps } from '../types';
 

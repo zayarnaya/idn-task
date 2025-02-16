@@ -26,8 +26,6 @@ export const SliderItem: FC<Props> = (props: Props) => {
               loading="lazy"
               width="80"
               height="80"
-              decoding="async"
-              data-nimg="1"
               className="max-w-16 md:max-w-20 max-h-16 md:max-h-20 aspect-square object-center object-contain"
               src={image}
               style={{ color: 'transparent' }}

@@ -1,0 +1,1 @@
+export { useSliderDot } from './useSliderDot';
