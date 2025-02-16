@@ -1,1 +1,1 @@
-export { Header } from './widgets';
+export { Header, Slider } from './widgets';
