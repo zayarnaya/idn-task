@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
   content: [
@@ -8,9 +9,48 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: [
+          'PPNeue',
+          ...defaultTheme.fontFamily.sans,
+        ]
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        'foreground\/20': 'hsl(var(--foreground) / 0.2)',
+        'foreground\/30': 'hsl(var(--foreground) / 0.3)',
+        primary: 'hsl(var(--primary))',
+        secondary: 'hsl(var(--secondary))',
+        border: 'hsl(var(--border))',
+        'secondary-foreground': 'hsl(var(--secondary-foreground))',
+        card: 'hsl(var(--card))',
+      },
+      fontSize: {
+        '2lg': ['1.25rem', '1.5rem'],
+        xl: ['1.5rem', '1.75rem'],
+        '2xl': ['1.625rem', '1.925rem'],
+        '4xl': ['2rem', '2.25rem'],
+      },
+      spacing: {
+        '2px': '2px',
+        '3px': '3px',
+      },
+      keyframes: {
+        openMenu: {
+          '0%': {
+            opacity: '.5',
+            transform: 'scale(.5, .5)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'scale(1, 1)',
+          },
+        },
+      },
+      animation: {
+        openMenu: 'openMenu .3s ease-in-out forwards',
+        closeMenu: 'openMenu .3s ease-in-out reverse forwards',
       },
     },
   },
