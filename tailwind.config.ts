@@ -1,25 +1,20 @@
-import type { Config } from "tailwindcss";
+import type { Config } from 'tailwindcss';
 import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          'PPNeue',
-          ...defaultTheme.fontFamily.sans,
-        ]
+        sans: ['PPNeue', ...defaultTheme.fontFamily.sans],
       },
       colors: {
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
-        'foreground\/20': 'hsl(var(--foreground) / 0.2)',
-        'foreground\/30': 'hsl(var(--foreground) / 0.3)',
         primary: 'hsl(var(--primary))',
         secondary: 'hsl(var(--secondary))',
         border: 'hsl(var(--border))',
