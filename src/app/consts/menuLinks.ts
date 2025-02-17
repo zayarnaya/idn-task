@@ -3,14 +3,14 @@ import { MenuLink } from '../types';
 export const menuLinks: MenuLink[] = [
   {
     title: 'О школе',
-    url: '/about',
+    url: '/',
   },
   {
     title: 'Курсы',
-    url: '/courses',
+    url: '/',
   },
   {
     title: 'Библиотека',
-    url: '/docs',
+    url: '/',
   },
 ];

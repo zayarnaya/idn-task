@@ -1,6 +1,6 @@
 import { menuLinks } from '@/app/consts';
 import { FC, useCallback, useState } from 'react';
-import { LogoLink, MobileMenu, MobileMenuButton, StyledMenuLink } from '../../components';
+import { EnterLink, LogoLink, MobileMenu, MobileMenuButton, StyledMenuLink } from '../../components';
 
 export const Header: FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,6 +23,7 @@ export const Header: FC = () => {
           <span className="mx-auto"></span>
           <MobileMenuButton isOpen={isMenuOpen} onClick={handleMenuToggle} controls={''} />
           {isMenuOpen && <MobileMenu elements={menuItems} isOpen={isMenuOpen} />}
+          <EnterLink />
         </div>
       </nav>
     </header>

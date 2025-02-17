@@ -2,7 +2,7 @@ import { FC } from 'react';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from '../../../assets/logo.svg';
+import logo from '@/app/assets/images/logo.svg';
 
 export const LogoLink: FC = () => {
   return (
@@ -16,7 +16,7 @@ export const LogoLink: FC = () => {
         style={{ color: 'transparent' }}
         src={logo}
       />
-      <span className="hidden md:block">STEMPS</span>
+      <span className="hidden md:block text-base">STEMPS</span>
     </Link>
   );
 };

@@ -1,5 +1,6 @@
 export { StyledMenuLink } from './StyledMenuLink/StyledMenuLink';
 export { LogoLink } from './LogoLink/LogoLink';
+export { EnterLink } from './EnterLink/EnterLink';
 export { MobileMenuButton } from './MobileMenuButton/MobileMenuButton';
 export { MobileMenu } from './MobileMenu/MobileMenu';
 export { SliderButtonNext } from './SliderButtonNext/SliderButtonNext';

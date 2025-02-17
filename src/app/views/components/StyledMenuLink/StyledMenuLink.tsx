@@ -13,7 +13,7 @@ export const StyledMenuLink: FC<Props> = (props: Props) => {
     <Link
       href={href}
       className={classNames(
-        'relative transition-all duration-300 hover:opacity-70 cursor-pointer text-nowrap',
+        'relative transition-all duration-300 hover:opacity-70 cursor-pointer text-nowrap text-base',
         className,
       )}
     >

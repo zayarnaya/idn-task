@@ -1,5 +1,5 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'IDN Test Task',
@@ -13,11 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className="bg-background font-sans antialiased"
-      >
-        {children}
-      </body>
+      <body className="bg-background font-sans text-foreground antialiased">{children}</body>
     </html>
   );
 }

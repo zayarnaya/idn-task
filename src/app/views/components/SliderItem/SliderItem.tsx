@@ -18,7 +18,7 @@ export const SliderItem: FC<Props> = (props: Props) => {
       data-id={id}
       id={`slide#${id}`}
     >
-      <div className="p-4 md:p-6 min-h-52 md:min-h-64 w-full rounded-lg bg-card cursor-default lg:hover:shadow-slideshadow group/card transition-shadow duration-300 overflow-hidden">
+      <div className="p-4 md:p-6 min-h-52m md:min-h-64 w-full rounded-lg bg-card cursor-default lg:hover:shadow-slideshadow group/card transition-shadow duration-300 overflow-hidden">
         <div className="flex flex-col justify-between h-full fade-in-0 zoom-in-95 duration-300">
           <div className="flex items-center gap-4 mb-6">
             <Image
